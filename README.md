@@ -1,63 +1,79 @@
-DASHBOARD PROJECT
-TABLE OF CONTENTS
-PROJECT OVERVIEW
+# Dashboard Project
 
+This repository contains three Power BI dashboards designed for analytical purposes, covering complaints analysis, sales forecasting, and regional healthcare data.
 
-FILE DESCRIPTIONS
+## Table of Contents
 
-DASHBOARD DETAILS
+- [Project Overview](#project-overview)
+- [File Descriptions](#file-descriptions)
+- [Dashboard Details](#dashboard-details)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-USAGE
+---
 
-CONTRIBUTING
+## Project Overview
 
-LICENSE
-
-PROJECT OVERVIEW
 This project contains three Power BI dashboards designed for different analytical purposes. The dashboards aim to facilitate data analysis, visual presentations, and decision-making based on the provided data.
 
-FILE DESCRIPTIONS
+---
+
+## File Descriptions
+
 Each dashboard consists of two main files:
 
-Power BI Dashboard File (.PBIX) – This file contains the full dashboard, including data transformations, calculated measures (DAX), and visualizations.
+- **Power BI Dashboard File (.PBIX)** - Contains the full dashboard with data transformations, DAX measures, and visualizations
+- **PDF Preview File (.PDF)** - Provides a static snapshot of the dashboard
 
-PDF Preview File (.PDF) – This file provides a snapshot of the dashboard for easy viewing without Power BI.
+### List of Files
 
-LIST OF FILES
-COMPLAINTS ANALYSIS
-DATA VISUALISATION.PBIX – (Power BI File)
+#### Complaints Analysis
+- `DATA VISUALISATION.PBIX` (Power BI File)
+- `DATA VISUALISATION preview file.pdf` (Dashboard Preview)
 
-DATA VISUALISATION preview file.pdf – (Dashboard Preview)
+#### Sales Forecasting
+- `DATA VISUALISATION 2.PBIX` (Power BI File)
+- `DATA VISUALISATION 2 preview file.pdf` (Dashboard Preview)
 
-SALES FORECASTING
-DATA VISUALISATION 2.PBIX – (Power BI File)
+#### Regional Healthcare Analysis
+- `DATA VISUALISATION 3.PBIX` (Power BI File)
+- `DATA VISUALISATION 3 preview file.pdf` (Dashboard Preview)
 
-DATA VISUALISATION 2 preview file.pdf – (Dashboard Preview)
+---
 
-REGIONAL HEALTHCARE ANALYSIS
-DATA VISUALISATION 3.PBIX – (Power BI File)
+## Dashboard Details
 
-DATA VISUALISATION 3 preview file.pdf – (Dashboard Preview)
+### Complaints Analysis
+This dashboard analyzes customer complaints, evaluating complaint volume, trends, and breakdowns by various criteria.
 
-DASHBOARD DETAILS
-COMPLAINTS ANALYSIS
-This dashboard is designed to analyze customer complaints. It allows you to evaluate the number of complaints, trends, and breakdowns based on various criteria.
+### Sales Forecasting
+This dashboard analyzes sales data and forecasts future trends using DAX-powered models with multiple visualization methods.
 
-SALES FORECASTING
-This dashboard is used to analyze sales data and forecast future sales trends. Sales models have been created using DAX functions, and various visualization methods have been employed.
+### Regional Healthcare Analysis
+This dashboard visualizes patient distribution across Azerbaijan's regions using map visualizations and regional healthcare metrics.
 
-REGIONAL HEALTHCARE ANALYSIS
-This dashboard analyzes the number of patients across different regions in Azerbaijan. It presents a comprehensive overview of the healthcare situation using map visualizations along with various regional data.
+---
 
-USAGE
-To view the Power BI dashboards, open the PBIX files in Power BI Desktop.
+## Usage
 
-To view the preview, simply open the PDF files to see a snapshot of the dashboard.
+1. **Interactive Use**:
+   - Open `.PBIX` files in Power BI Desktop
+   - Use filters and drill-down features to explore data
 
-Use Power BI's filtering and drill-down functionalities to interact with the data and explore different insights.
+2. **Quick Preview**:
+   - View `.PDF` files for static dashboard snapshots
 
-CONTRIBUTING
-If you'd like to contribute to this project, please open a pull request with any ideas or fixes, or submit an issue for discussion.
+---
 
-LICENSE
-This project is licensed under the MIT License. See the LICENSE file for more details.
+## Contributing
+
+Contributions are welcome! Please:
+1. Open an issue to discuss changes
+2. Submit pull requests for review
+
+---
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
