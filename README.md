@@ -1,6 +1,6 @@
 # Dashboard Project
 
-This repository contains three Power BI dashboards designed for analytical purposes, covering complaints analysis, sales forecasting, and regional healthcare data.
+This repository contains three Power BI dashboards for complaints analysis, sales forecasting, and regional healthcare analytics.
 
 ## Table of Contents
 
@@ -9,71 +9,62 @@ This repository contains three Power BI dashboards designed for analytical purpo
 - [Dashboard Details](#dashboard-details)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ---
 
 ## Project Overview
 
-This project contains three Power BI dashboards designed for different analytical purposes. The dashboards aim to facilitate data analysis, visual presentations, and decision-making based on the provided data.
+Interactive dashboards for data-driven decision making:
+
+1. Complaints trends analysis
+2. Sales performance forecasting
+3. Regional healthcare metrics (Azerbaijan)
 
 ---
 
 ## File Descriptions
 
-Each dashboard consists of two main files:
+### Power BI Source Files
+- [`data_visualisation.pbix`](./data_visualisation.pbix) - Main complaints dashboard
+- [`data_visualisation_2.pbix`](./data_visualisation_2.pbix) - Sales forecasting
+- [`data_visualisation_3.pbix`](./data_visualisation_3.pbix) - Healthcare analytics
 
-- **Power BI Dashboard File (.PBIX)** - Contains the full dashboard with data transformations, DAX measures, and visualizations
-- **PDF Preview File (.PDF)** - Provides a static snapshot of the dashboard
-
-### List of Files
-
-#### Complaints Analysis
-- `DATA VISUALISATION.PBIX` (Power BI File)
-- `DATA VISUALISATION preview file.pdf` (Dashboard Preview)
-
-#### Sales Forecasting
-- `DATA VISUALISATION 2.PBIX` (Power BI File)
-- `DATA VISUALISATION 2 preview file.pdf` (Dashboard Preview)
-
-#### Regional Healthcare Analysis
-- `DATA VISUALISATION 3.PBIX` (Power BI File)
-- `DATA VISUALISATION 3 preview file.pdf` (Dashboard Preview)
+### Preview Files
+- [`data_visualisation_preview.pdf`](./data_visualisation_preview.pdf)
+- [`data_visualisation_2_preview.pdf`](./data_visualisation_2_preview.pdf)
+- [`data_visualisation_3_preview.pdf`](./data_visualisation_3_preview.pdf)
 
 ---
 
 ## Dashboard Details
 
 ### Complaints Analysis
-This dashboard analyzes customer complaints, evaluating complaint volume, trends, and breakdowns by various criteria.
+- Tracks complaint volumes and patterns
+- Category/region breakdowns
 
 ### Sales Forecasting
-This dashboard analyzes sales data and forecasts future trends using DAX-powered models with multiple visualization methods.
+- DAX-powered prediction models
+- Interactive trend visualizations
 
-### Regional Healthcare Analysis
-This dashboard visualizes patient distribution across Azerbaijan's regions using map visualizations and regional healthcare metrics.
+### Regional Healthcare
+- Patient distribution maps
+- Regional comparison tools
 
 ---
 
 ## Usage
 
-1. **Interactive Use**:
-   - Open `.PBIX` files in Power BI Desktop
-   - Use filters and drill-down features to explore data
+1. **Full interaction**:
+   - Download [`*.pbix` files](#file-descriptions)
+   - Open in Power BI Desktop
 
-2. **Quick Preview**:
-   - View `.PDF` files for static dashboard snapshots
+2. **Quick preview**:
+   - View [`*.pdf` snapshots](#file-descriptions)
 
 ---
 
 ## Contributing
 
-Contributions are welcome! Please:
-1. Open an issue to discuss changes
-2. Submit pull requests for review
-
----
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
+1. Fork the repository
+2. Create your feature branch
+3. Submit a pull request
